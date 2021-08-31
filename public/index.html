@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="project.css">
+  <title>Registration Form</title>
+</head>
+<body>
+  <form action="" class="form">
+    <div class="form-info">
+      <h1 class="title title-info">General Information</h1>
+      <select name="title" id="title" class="form__select form-info__select">
+        <option value="title">Title</option>
+        <option value="businessman">Businessman</option>
+        <option value="reporter">Reporter</option>
+        <option value="secretary">Secretary</option>
+      </select>
+      <div class="form-name">
+        <input type="text" placeholder="First Name" required class="form__input form-info__input form-name__elem1">
+        <input type="text" placeholder="Last Name" required class="form__input form-info__input form-name__elem2">
+      </div>
+      <select name="position" id="position" class="form__select form-info__select">
+        <option value="position">Position</option>
+        <option value="director">Director</option>
+        <option value="manager">Manager</option>
+        <option value="employee">Employee</option>
+      </select>
+      <input type="text" placeholder="Company" required class="form__input form-info__input">
+      <div class="form-business">
+        <input type="text" placeholder="Bussines Arena" required class="form__input form-info__input">
+        <select name="employees" class="form__select form-info__select">
+          <option value="employees">Employees</option>
+          <option value="trainee">Trainee</option>
+          <option value="colleague">Colleague</option>
+          <option value="associate">Associate</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-contact">
+      <h1 class="title title-contact">Contact Details</h1>
+      <input type="text" placeholder="Street + Nr" required class="form__input form-contact__input">
+      <input type="text" placeholder="Additional Information" class="form__input form-contact__input">
+      <div class="form-contact-box">
+        <input type="text" placeholder="Zip Code" required class="form__input form-contact__input">
+        <select name="street" id="street" class="form__select form-contact__select">
+          <option value="place">Place</option>
+          <option value="street">Street</option>
+          <option value="disctric">District</option>
+          <option value="city">City</option>
+        </select>
+      </div>
+      <select name="country" id="country" class="form__select form-contact__select">
+        <option value="country">Country</option>
+        <option value="vietnam">Vietnam</option>
+        <option value="malaysia">Malaysia</option>
+        <option value="india">India</option>
+      </select>
+      <div class="form-contact-box">
+        <input type="text" placeholder="Code +" required class="form__input form-contact__input">
+        <input type="text" placeholder="Phone Number" required class="form__input form-contact__input">
+      </div>
+      <input type="email" placeholder="Your Email" required class="form__input form-contact__input">
+      <label class="form-contact-terms">
+        <input type="checkbox" class="form__checkbox__elem1">
+        <span class="form__checkbox__elem2"></span>
+        <span>I do accept the <a href="#" title="terms" class="form-contact-terms__a">Terms and Conditions</a> of your site.</span>
+      </label>
+      <input type="submit" value="Register Bagde" class="form__submit form-contact__submit">
+    </div>
+  </form>
+</body>
+</html>
